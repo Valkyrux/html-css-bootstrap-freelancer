@@ -1,0 +1,26 @@
+header {
+    background-color: steelblue;
+}
+
+.ms_start,
+.ms_nav_bar {
+    height: 60px;
+    margin: 10px 0;
+    background-color: red;
+    width: 50%;
+}
+
+.ms_nav_bar {
+    float: right;
+    list-style-type: none;
+}
+
+@media screen and (min-width: 992px) {
+    .ms_start {
+    margin-left: 15%;
+    }
+
+    .ms_nav_bar {
+        margin-right: 15%;
+    }
+}
