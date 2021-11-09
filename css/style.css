@@ -46,20 +46,20 @@ header {
     background-color: var(--aqua-green);
 }
 
-.ms_about_h2 {
+.ms_h2 {
     height: 30px;
-    background-color: white;
+    background-color: gray;
     margin: 10px 0;
 }
 
-.ms_about_text {
+.ms_text {
     height: 100px;
-    background-color: white;
+    background-color: gray;
     margin: 10px 0;
 }
 
-.ms_about_button {
+.ms_button {
     height: 30px;
-    background-color: white;
+    background-color: gray;
     margin: 10px 0;
 }
