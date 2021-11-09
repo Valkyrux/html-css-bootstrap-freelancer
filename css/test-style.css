@@ -1,0 +1,14 @@
+* {
+    border: 1px solid red;
+}
+
+[class*="ms_col"] {
+    background-color: silver;
+    float: right;
+    width: 50%;
+    margin: 20px;
+}
+
+.ms_col_2 {
+    float: left;
+}
