@@ -1,6 +1,7 @@
 :root {
     --dark-blue: #2c3e50;
     --aqua-green: #1abc9c;
+    --blue: #3a546d;
 }
 
 header {
@@ -62,4 +63,20 @@ header {
     height: 30px;
     background-color: gray;
     margin: 10px 0;
+}
+
+.ms_main_footer {
+    background-color: var(--blue);
+}
+
+.ms_foot_footer {
+    background-color: var(--dark-blue);
+    padding: 10px;
+}
+
+.ms_foot_footer div {
+    width: 50px;
+    margin: 0 auto;
+    background-color: gray;
+    height: 20px;
 }
