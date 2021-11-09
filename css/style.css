@@ -1,12 +1,17 @@
+:root {
+    --dark-blue: #2c3e50;
+    --aqua-green: #1abc9c;
+}
+
 header {
-    background-color: steelblue;
+    background-color: var(--dark-blue);
 }
 
 .ms_start,
 .ms_nav_bar {
     height: 60px;
     margin: 10px 0;
-    background-color: red;
+    background-color: white;
     width: 50%;
 }
 
@@ -23,4 +28,15 @@ header {
     .ms_nav_bar {
         margin-right: 15%;
     }
+}
+
+.ms_jumbo {
+    background-color: var(--aqua-green);
+}
+
+.ms_jumbo_content {
+    height: 100px;
+    width: 70%;
+    margin: 60px auto;
+    background-color: var(--dark-blue);
 }
