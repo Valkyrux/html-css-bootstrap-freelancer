@@ -17,10 +17,10 @@ header {
 
 .ms_uppercase {
     text-transform: uppercase;
+    font-weight: 600;
 }
 
 header .ms_h2 {
-    font-weight: 600;
     font-size: 1.6em;
 }
 
@@ -33,7 +33,6 @@ header nav a {
     color: white;
     text-decoration: none;
     font-size: 1em;
-    font-weight: 600;
 }
 
 @media screen and (max-width:767px) {
@@ -49,6 +48,27 @@ header nav a {
 
 .ms_jumbo {
     background-color: var(--aqua-green);
+}
+
+.ms_jumbo img {
+    width: 30%;
+    object-fit: contain;
+}
+
+.ms_star {
+    font-size: 2em;
+}
+
+.ms_star>span::before,
+.ms_star>span::after {
+    content: '';
+    display: inline-block;
+    width: 20%;
+    margin: 0 5%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: white;
+    vertical-align: middle;
 }
 
 .ms_jumbo_content {
