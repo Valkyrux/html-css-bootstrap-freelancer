@@ -13,6 +13,10 @@ body {
 
 header {
     background-color: var(--dark-blue);
+    position: sticky;
+    width: 100%;
+    top: 0;
+    z-index: 1;
 }
 
 .ms_uppercase {
@@ -29,10 +33,24 @@ header .ms_h2 {
     border-radius: 5px;
 }
 
+.hamburgher:hover, 
+.hamburgher:active, 
+.hamburgher:focus {
+    background-color: var(--white);
+    color: var(--dark-blue);
+    border-color: var(--dark-blue);
+}
+
 header nav a {
     color: white;
     text-decoration: none;
     font-size: 1em;
+}
+
+header nav a:hover,
+header nav a:active,
+header nav a:focus {
+    color: var(--aqua-green);
 }
 
 @media screen and (max-width:767px) {
@@ -100,11 +118,33 @@ header nav a {
     background-color: var(--dark-blue);
 }
 
+.ms_img_container {
+    background-color: var(--aqua-green);
+    border-radius: 10px;
+    position: relative;
+}
+
+.ms_img_container:hover::before {
+    content: '\002B';
+    font-size: 150px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .ms_img_pf {
     width: 100%;
     object-fit: contain;
     max-width: max-content;
+    transition: 0.8s;
+    overflow: hidden;
     border-radius: 10px;
+}
+
+.ms_img_pf:hover {
+    filter: opacity(0)
 }
 
 #about {
