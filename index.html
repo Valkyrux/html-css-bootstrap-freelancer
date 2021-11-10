@@ -26,9 +26,9 @@
                     </div>
                     
                     <ul class="list-inline mb-0 d-none d-sm-block">
-                        <li class="list-inline-item ms_uppercase"><a href="">Portfolio</a></li>
-                        <li class="list-inline-item ms_uppercase"> <a href="">About</a></li>
-                        <li class="list-inline-item ms_uppercase"> <a href="">Contact</a></li>
+                        <li class="list-inline-item ms_uppercase"><a href="#portfolio">Portfolio</a></li>
+                        <li class="list-inline-item ms_uppercase"> <a href="#about">About</a></li>
+                        <li class="list-inline-item ms_uppercase"> <a href="#contact-us">Contact</a></li>
                     </ul>
                 </nav>
             </div>
@@ -48,100 +48,127 @@
         </div>
     </div>
 
-    <main class="container">
-        <div class="row">
-            <div class="col-12">
-                <h2 class=" ms_portfolio"></h2>
+    <main id="portfolio" class="container">
+        <div class="row mt-4 mb-4">
+            <div class="col-12 text-center">
+                <h2 class=" ms_blue_text ms_uppercase">Portfolio</h2>
+                <div class="ms_star ms_blue_text ms_star_blue"><span><i class="fas fa-star"></i></span></div>
             </div>
-            <div class="col-12 col-sm-6 col-md-4">
-                <div class="ms_img_1"></div>
+            <div class="col-12 col-sm-6 col-md-4 mt-3 mb-3">
+                <img class="ms_img_pf" src="img/cabin.png" alt="">
             </div>
-            <div class="col-12 col-sm-6 col-md-4">
-                <div class="ms_img_1"></div>
+            <div class="col-12 col-sm-6 col-md-4 mt-3 mb-3">
+                <img class="ms_img_pf" src="img/cake.png" alt="">
             </div>
-            <div class="col-12 col-sm-6 col-md-4">
-                <div class="ms_img_1"></div>
+            <div class="col-12 col-sm-6 col-md-4 mt-3 mb-3">
+                <img class="ms_img_pf" src="img/circus.png" alt="">
             </div>
-            <div class="col-12 col-sm-6 col-md-4">
-                <div class="ms_img_1"></div>
+            <div class="col-12 col-sm-6 col-md-4 mt-3 mb-3">
+                <img class="ms_img_pf" src="img/game.png" alt="">
             </div>
-            <div class="col-12 col-sm-6 col-md-4">
-                <div class="ms_img_1"></div>
+            <div class="col-12 col-sm-6 col-md-4 mt-3 mb-3">
+                <img class="ms_img_pf" src="img/safe.png" alt="">
             </div>
-            <div class="col-12 col-sm-6 col-md-4">
-                <div class="ms_img_1"></div>
+            <div class="col-12 col-sm-6 col-md-4 mt-3 mb-3">
+                <img class="ms_img_pf" src="img/submarine.png" alt="">
             </div>
         </div>
     </main>
 
-    <section class="ms_about">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <h2 class="ms_h2"></h2>
+    <section id="about">
+        <div class="container pt-5 pb-5">
+            <div class="row pt-2 pb-2">
+                <div class="col-12 text-center">
+                    <h2 class="ms_uppercase">About</h2>
+                    <div class="ms_star"><span><i class="fas fa-star"></i></span></div>
                 </div>
                 
-                <div class="col-10 offset-1 col-md-4 offset-md-2">
-                    <div class="ms_text"></div>
+                <div class="col-10 offset-1 col-md-4 offset-md-2 pt-2 pb-2">
+                    Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS and JavaScript as well as optional LESS stylesheets for easy customization.
                 </div>
-                <div class="col-10 offset-1 col-md-4 offset-md-0">
-                    <div class="ms_text"></div>
+                <div class="col-10 offset-1 col-md-4 offset-md-0 pt-2 pb-2">
+                    Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!
                 </div>
 
-                <div class="col-10 offset-1 col-md-8 offset-md-2">
-                    <h2 class="ms_button"></h2>
+                <div class="col-10 offset-1 col-md-8 offset-md-2 text-center pt-3">
+                    <button type="button" class="btn btn-outline-light"><i class="fas fa-download"></i> Download</button>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="container">
+    <section id="contact-us" class="container mt-5 mb-5">
         <div class="row">
-            <div class="col-12">
-                <h2 class="ms_h2"></h2>
+            <div class="col-12 text-center">
+                <h2 class=" ms_blue_text ms_uppercase">Contact Me</h2>
+                <div class="ms_star ms_blue_text ms_star_blue"><span><i class="fas fa-star"></i></span></div>
             </div>
 
-            <div class="col-10 offset-1 col-md-8 offset-md-2">
-                <div class="ms_text"></div>
-            </div>
-            <div class="col-10 offset-1 col-md-8 offset-md-2">
-                <div class="ms_text"></div>
-            </div>
-            <div class="col-10 offset-1 col-md-8 offset-md-2">
-                <div class="ms_text"></div>
-            </div>
-            <div class="col-10 offset-1 col-md-8 offset-md-2">
-                <div class="ms_text"></div>
-            </div>
+            <form>
+                <div class="col-10 offset-1 col-md-8 offset-md-2 pt-2 pb-2 ms_form">
+                    <div class="row">
+                        <div class="col-auto">
+                            <label for="inputName" class="col-form-label ms_blue_text">Name</label>
+                        </div>
+                        <div class="col">
+                            <input type="text" id="inputName" class="form-control ms_form_type">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-10 offset-1 col-md-8 offset-md-2 pt-2 pb-2 ms_form">
+                    <div class="row">
+                        <div class="col-auto">
+                            <label for="inputEmail" class="col-form-label ms_blue_text">Email Address</label>
+                        </div>
+                        <div class="col">
+                            <input type="text" id="inputEmail" class="form-control ms_form_type">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-10 offset-1 col-md-8 offset-md-2 pt-2 pb-2 ms_form">
+                    <div class="row">
+                        <div class="col-auto">
+                            <label for="inputPhone" class="col-form-label ms_blue_text">Phone Number</label>
+                        </div>
+                        <div class="col">
+                            <input type="text" id="inputPhone" class="form-control ms_form_type">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-10 offset-1 col-md-8 offset-md-2 ms_form">
+                    <label for="inputMessage" class="col-form-label ms_blue_text">Message</label>
+                    <textarea type="text" id="inputMessage" class="form-control ms_form_type"></textarea>
+                </div>
 
-            <div class="col-10 offset-1 col-md-8 offset-md-2">
-                <h2 class="ms_button"></h2>
-            </div>
-
-            
+                <div class="col-10 offset-1 col-md-8 offset-md-2">
+                    <button class="btn btn-primary ms_send_btn mt-3" type="submit">Send</button>
+                </div>
+            </form>
         </div>
     </section>
 
     <footer>
-        <div class="ms_main_footer">
+        <div class="ms_main_footer pt-5 pb-5">
             <div class="container">
-                <div class="row">
+                <div class="row text-center">
                     <div class="col-12 col-md-4">
-                        <div class="ms_text"></div>
+                        <h3 class="ms_uppercase">Location</h3>
                     </div>
                     <div class="col-12 col-md-4">
-                        <div class="ms_text"></div>
+                        <h3 class="ms_uppercase">Around the web</h3>
                     </div>
                     <div class="col-12 col-md-4">
-                        <div class="ms_text"></div>
+                        <h3 class="ms_uppercase">About Freelancer</h3>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="ms_foot_footer">
-            <div>
-            </div>
+        <div class="ms_foot_footer text-center">
+            <p>Copyright You Website 2019</p>
         </div>
     </footer>
 </body>

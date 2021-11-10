@@ -51,8 +51,22 @@ header nav a {
 }
 
 .ms_jumbo img {
-    width: 30%;
+    width: 25%;
     object-fit: contain;
+}
+
+@media screen and (max-width:767px) {
+    .ms_jumbo img {
+        width: 40%;
+    }
+    
+}
+
+@media screen and (max-width:576px) {
+    .ms_jumbo img {
+        width: 80%;
+    }
+    
 }
 
 .ms_star {
@@ -71,40 +85,60 @@ header nav a {
     vertical-align: middle;
 }
 
-.ms_jumbo_content {
-    height: 300px;
+.ms_blue_text {
+    color: var(--dark-blue);
+    font-weight: 600;
+}
+
+.ms_star_blue>span::after,
+.ms_star_blue>span::before {
+    background-color: var(--dark-blue);
+}
+
+.ms_img_pf {
     width: 100%;
-    margin: 60px auto;
-    background-color: var(--dark-blue);
+    object-fit: contain;
+    max-width: max-content;
+    border-radius: 10px;
 }
 
-.ms_portfolio {
-    background-color: var(--dark-blue);
-    height: 40px;
-    margin: 10px 0;
-}
-
-[class*="ms_img_"] {
-    height: 150px;
-    background-color: red;
-    margin: 10px 0;
-}
-
-.ms_about {
+#about {
     background-color: var(--aqua-green);
 }
 
-.ms_h2 {
-    height: 30px;
-    background-color: gray;
-    margin: 10px 0;
+.ms_form {
+    border-bottom: 1px solid gainsboro;
 }
+
+.ms_form_type {
+    border: 0px solid transparent;
+}
+
+.ms_send_btn {
+    background-color: var(--aqua-green);
+    border-color: var(--aqua-green);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .ms_text {
     height: 100px;
     background-color: gray;
     margin: 10px 0;
 }
+
+
 
 .ms_button {
     height: 30px;
@@ -119,11 +153,4 @@ header nav a {
 .ms_foot_footer {
     background-color: var(--dark-blue);
     padding: 10px;
-}
-
-.ms_foot_footer div {
-    width: 50px;
-    margin: 0 auto;
-    background-color: gray;
-    height: 20px;
 }
