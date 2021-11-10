@@ -53,7 +53,7 @@ header nav a:focus {
     color: var(--aqua-green);
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:991px) {
     
     header .ms_h2 {
         font-size: .9em;
@@ -82,9 +82,15 @@ header nav a:focus {
 
 @media screen and (max-width:576px) {
     .ms_jumbo img {
-        width: 80%;
+        width: 60%;
+    }
+    .ms_jumbo h1 {
+        font-size: 1.2rem;
     }
     
+    .ms_jumbo  {
+        font-size: .9rem;
+    }
 }
 
 .ms_star {
@@ -106,11 +112,6 @@ header nav a:focus {
 .ms_blue_text {
     color: var(--dark-blue);
     font-weight: 600;
-}
-
-.ms_green_text {
-    color: var(--aqua-green);
-    text-decoration: none;
 }
 
 .ms_star_blue>span::after,
@@ -159,9 +160,20 @@ header nav a:focus {
     border: 0px solid transparent;
 }
 
+#inputMessage {
+    height: 150px;
+}
+
 .ms_send_btn {
     background-color: var(--aqua-green);
     border-color: var(--aqua-green);
+}
+
+.ms_send_btn:hover, 
+.ms_send_btn:hover, 
+.ms_send_btn:hover {
+    background-color: var(--dark-blue);
+    border-color: var(--dark-blue);
 }
 
 .ms_main_footer {
@@ -173,6 +185,8 @@ header nav a:focus {
 }
 
 .ms_social {
+    color: var(--white);
+    text-decoration: none;
     border: 1px solid white;
     border-radius: 50%;
     font-size: 1.4em;
@@ -182,6 +196,25 @@ header nav a:focus {
     display: inline-flex;
     justify-content: center;
     align-items: center;
+}
+
+.ms_social:hover, 
+.ms_social:active, 
+.ms_social:focus {
+    color: var(--dark-blue);
+    border: 1px solid var(--dark-blue);
+    background-color: var(--white);
+}
+
+.ms_green_text {
+    color: var(--aqua-green);
+    text-decoration: none;
+}
+
+.ms_green_text:hover, 
+.ms_green_text:focus, 
+.ms_green_text:active {
+    color: var(--white);
 }
 
 .ms_foot_footer {
